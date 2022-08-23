@@ -1,7 +1,7 @@
 ---
 title: "CS 6823: Fundamentals of Machine Learning"
 author: ''
-date: "Spring 2021"
+date: "Fall 2022"
 output: pdf_document 
 fontsize: 12pt
     
@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 **Room:** LSW 236
 
 **Office:** ABI 202  
-**Office hours:** W 10:45-11:45 am or by appointment
+**Office hours:** Th 4:00-5:00 pm or by appointment
 
 **email:** ebellis@astate.edu  
 
@@ -43,7 +43,7 @@ Current topics of interest to graduate computer science students. (May be repeat
 This course is intended to provide an overview to supervised and unsupervised statistical learning techniques commonly used for regression and classification problems in data science. The course focuses on implementing these techniques using the R programming language.
 
 **Program Outcomes:**  
-*CS 6823 Statistical Learning in Data Science* is linked to the following degree-level student learning outcomes for the M.S. in Computer Science: 1) M.S. Computer Science graduate students should have a deeper understanding of the theory and application of algorithms and programming languages.  2) M.S. Computer Science graduate students should have the ability to apply advanced analysis techniques to problem identification and solution in computing applications. 
+*CS 6823 Fundamentals of Machine Learning* is linked to the following degree-level student learning outcomes for the M.S. in Computer Science: 1) M.S. Computer Science graduate students should have a deeper understanding of the theory and application of algorithms and programming languages.  2) M.S. Computer Science graduate students should have the ability to apply advanced analysis techniques to problem identification and solution in computing applications. 
 
 **Course Level Learning Outcomes:**
 
@@ -77,10 +77,10 @@ To earn a 'B' for this course, you must:
 
 Students who demonstrate only limited understanding of the course material by the end of the semester (on the mini-exams or on the project) or who do not contribute to peer code reviews will earn a 'C'. Students who engage in academic misconduct (plagiarism or cheating) will earn an 'F'. 
 
-The grading policy for this course has been updated as of Fall 2022 after reading Susan Blum's excellent book '[Ungrading:](http://www.susanblum.com/blog/ungrading) Why Rating Students Undermines Learning'. I appreciate that the lack of a numerical score could be somewhat stressful and will provide a tentative letter grade on your midterm report, so you know where you are headed. All other project reports will be individual feedback (comments) only from myself and from the peer code review. I am keen to know what you think about this new element of the course and if it has helped you focus more on your learning compared to a more 'traditional' policy.
+The grading policy for this course has been updated as of Fall 2022 after reading Susan Blum's excellent book '[Ungrading:](http://www.susanblum.com/blog/ungrading) Why Rating Students Undermines Learning'. I appreciate that the lack of a numerical score on most assignments throughout the course could be somewhat stressful and will provide a tentative letter grade on your midterm report, so you know where you are headed. All other project reports will be individual feedback (comments) only from myself and from the peer code review. I am keen to know what you think about this new element of the course and if it has helped you focus more on your learning compared to a more 'traditional' policy.
 
 ## Course Requirements  
-**Mini-exams:** In-class mini-exams are quizzes intended to encourage everyone to keep up with the lecture material and the reading, and help both you and me monitor how you are doing. Make-ups will not be given. I will offer at least 6 mini-exams throughout the course, and you will have the opportunity to resubmit the mini-exam, with a written reflection describing why you may have answered a question incorrectly, for full credit.
+**Mini-exams:** In-class mini-exams are quizzes intended to encourage everyone to keep up with the lecture material and the reading, and help both you and me monitor how you are doing. Make-ups will not be given. I will offer at least 6 mini-exams throughout the course, and you will have the opportunity to resubmit the mini-exam, with a written reflection describing your updated thought process for each 'incorrect' question, for full credit.
 
 **Reports (5):** You will complete five short project reports based on a dataset(s) of your choosing. The goal is to implement and interpret the results of statistical learning techniques covered during the term on a dataset 'from the wild'. *Reports are expected to be the independent work of an individual student and each student must work with a different dataset.* However, you may use the same dataset(s) throughout the semester. You should submit a hard copy of the rendered report that also includes a print out of the .Rmd code (with any mark-up from the peer code review process, and the peer code review itself) attached to the final report as an appendix.
 

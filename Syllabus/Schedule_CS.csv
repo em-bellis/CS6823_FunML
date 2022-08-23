@@ -1,0 +1,32 @@
+﻿Week,Date,Topic,Due,Reading
+1,8/24/22,Intro to Statistical Learning,,Chp. 1-2
+2,8/29/22,R & R Markdown,,
+,8/31/22,,,
+3,9/5/22,No Class; Labor Day,,
+,9/7/22,Regression,,Chp. 3
+4,9/12/22,,,
+,9/14/22,Classification,,Chp. 4
+5,9/19/22,,Code Review (Report 1),
+,9/21/22,,,
+6,9/26/22,Resampling,,Chp. 5
+,9/28/22,,,
+7,10/3/22,Alternatives to Least Squares,,Chp. 6
+,10/5/22,,,
+8,10/10/22,,Code Review (Report 2),
+,10/12/22,,,
+9,10/17/22,Beyond Linearity,MIDTERM PROJECT (Report 3),Chp.7
+,10/19/22,,,
+10,10/24/22,,,
+,10/26/22,Decision Trees,,Chp. 8
+11,10/31/22,,,
+,11/2/22,,,
+12,11/7/22,Unsupervised Learning,,Chp. 12
+,11/9/22,,Code Review (Report 4),
+13,11/14/22,,,
+,11/16/22,SVMs,,Chp. 9
+14,11/21/22,No Class; Fall Break,,
+,11/23/22,No Class; Fall Break,,
+15,11/28/22,Deep Learning,,Chp. 10
+,11/30/22,,,
+16,12/5/22,Last day of class,Code Review (Report 5),
+17,,,FINAL PROJECT,

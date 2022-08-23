@@ -3,7 +3,7 @@
 .Rapp.history
 
 # Mac OS
-.DS_Store
+.DS_store
 
 # Session Data files
 .RData

@@ -1,0 +1,4 @@
+regression	problems with a quantitative response
+classification	problems with a qualitative (or categorical) response
+quantitative variable	takes on a numerical value (e.g. age, height, income)
+qualitative variable	takes on a value of one of K different classes or categories

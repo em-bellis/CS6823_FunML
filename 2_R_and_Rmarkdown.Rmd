@@ -1,0 +1,118 @@
+---
+title: "R and R Markdown"
+date: ""
+output:
+    beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## What is R?
+- R is a **language** and **environment** for statistical computing and graphics  
+
+- Generally (but see [here](https://adv-r.hadley.nz/fp.html)), is a functional language, but also has aspects of object oriented programming (described in more detail [here](https://adv-r.hadley.nz/oo.html))
+
+
+## Why R?
+
+-  Free, open source, and available on every major platform
+-  Community (R User Groups & local meet-ups, [R-Ladies](https://rladies.org), #rstats and #r4ds on twitter)
+-  So many good packages!
+-  Communication (R Shiny & R Markdown)
+-  Integrated development environment (R Studio)
+-  Connect to C, Fortran, C++
+-  Cutting-edge tools, thanks to researchers in statistics and machine learning
+
+
+## quiRks
+
+- Many users are not programmers; software engineering best practices not always adhered to
+- Inconsistency across contributed packages
+- Can be very slow and memory-intensive
+
+## Resources for R
+**For the language:**  
+- [Swirl](https://swirlstats.com/students.html) an interactive package  
+- [Data Carpentry](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html) materials from workshops freely available  
+- [Advanced R](https://adv-r.hadley.nz) by Hadley Wickham  
+- [Youtube videos](https://daviddalpiaz.github.io/r4sl/r-rstudio-rmarkdown.html) by David Dalpiaz  
+
+**For development:**  
+- [R Packages](http://r-pkgs.had.co.nz) by Hadley Wickham  
+
+**For data science:**  
+- [R for Data Science](https://r4ds.had.co.nz) by Garrett Grolemund & Hadley Wickham  
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, & Garrett Grolemund  
+- [The Tidyverse Cookbook](https://rstudio-education.github.io/tidyverse-cookbook/how-to-use-this-book.html) by Garrett Grolemund  
+- [The R Graphics Cookbook](https://r-graphics.org/index.html) by Winston Chang  
+
+## What is Markdown?
+
+- Markdown is a plain text formatting syntax for authoring HTML, PDF, and MS Word documents. 
+
+- Provides a standard way of formatting text, like  
+
+  *italics*  
+  **bold**  
+  `code`  
+  [links](rmarkdown.rstudio.com)  
+  Latex equations,  $E = mc^{2}$  
+  and bibliographies <!-- This is a comment. -->
+
+## What is Markdown?
+
+- BUT original version did not include syntax for tables, footnotes, math expressions, or citations
+
+- Enter **pandoc**, a 'swiss-army knife' for converting between markup formats (https://pandoc.org)
+
+- *A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text; markup language is not shown when the document is processed for display*
+
+## What is R Markdown?
+
+- "R markdown" document format was first introduced in 2012 as part of **knitr** package, enabling users to embed code chunks in Markdown documents.
+
+- The **rmarkdown** package, first created in 2014, provides an 'ecosystem' for authoring documents.
+
+<center>
+
+![rmarkdown, knitr, and pandoc](Images_for_slides/rmd_workflow.png){ width=100% }
+
+
+</center>
+
+<!-- ## Slide with R Output -->
+<!-- ```{r cars, echo = TRUE} -->
+<!-- summary(cars) -->
+<!-- ``` -->
+
+<!-- ## Slide with Plot -->
+
+<!-- ```{r pressure, echo = TRUE} -->
+<!-- plot(pressure) -->
+<!-- ``` -->
+
+
+<!-- ## What is R Markdown? -->
+<!-- R Markdown also supports other languages, such as Python, Julia, C++, and SQL thanks to the **knitr** package, which provides a large number of language engines. Language engines are essentially functions registered in the object `knitr::knit_engine`. -->
+<!-- ```{r knitr, echo=TRUE} -->
+<!-- names(knitr::knit_engines$get()) -->
+<!-- ``` -->
+
+## What is R Markdown?  
+
+For more details on using R Markdown see <http://rmarkdown.rstudio.com> and [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, & Garrett Grolemund 
+
+## Rendering a .Rmd file
+* R Studio:    
+    * Click the **Knit** button to generate document that includes both content and output of any embedded R code chunks within the document  
+
+
+* R Console:  
+
+`rmarkdown::render('/path/to/file/Intro.Rmd')`
+
+
+* CLI:  
+
+`Rscript -e "rmarkdown::render('./Intro.Rmd')"`

@@ -225,41 +225,41 @@ The 'best' method (low variance AND low bias) depends on the true form of $f$.
 </center>
 
 
-<!-- ## Model Accuracy in Classification   -->
-<!-- - The test error rate is minimized on average by a simple classifier (the Bayes classifier) that *assigns each observation to the most likely class, given its predictor values.*   -->
-<!-- - Test error is given by $$\text{Avg}(I(y_0 \ne \hat y_0)) $$ where $I(y_0 \ne \hat y_0) = 1$ if $y_0 \ne \hat y_0$ but 0 otherwise. -->
+## Model Accuracy in Classification
+- The test error rate is minimized on average by a simple classifier (the Bayes classifier) that *assigns each observation to the most likely class, given its predictor values.*
+- Test error is given by $$\text{Avg}(I(y_0 \ne \hat y_0)) $$ where $I(y_0 \ne \hat y_0) = 1$ if $y_0 \ne \hat y_0$ but 0 otherwise.
 
 
-<!-- ## Model Accuracy in Classification   -->
-<!-- With 2 classes, Bayes decision boundary corresponds to predicting class one if $Pr(Y=1 | X=x_0) > 0.5$ and class two otherwise   -->
+## Model Accuracy in Classification
+With 2 classes, Bayes decision boundary corresponds to predicting class one if $Pr(Y=1 | X=x_0) > 0.5$ and class two otherwise
 
-<!-- <center> -->
-<!-- ![Fig 2.13](../Images_for_slides/All_Figures/Chapter2/2_13.png){ width=50% }  -->
-<!-- </center>   -->
-<!-- ISL Fig. 2.13; Purple dashed line: Bayes decision boundary    -->
+<center>
+![Fig 2.13](Images_for_slides/All_Figures/Chapter2/2_13.png){ width=50% }
+</center>
+ISL Fig. 2.13; Purple dashed line: Bayes decision boundary
 
-<!-- ## Non-parametric classification: KNN    -->
-<!-- In reality, we never know the conditional probability of $Y$ given $X$! The Bayes Classifier boundary is therefore an unattainable 'gold standard'. But, we can estimate it using various methods (logistic regression, KNN classification, LDA, QDA). -->
+## Non-parametric classification: KNN
+In reality, we never know the conditional probability of $Y$ given $X$! The Bayes Classifier boundary is therefore an unattainable 'gold standard'. But, we can estimate it using various methods (logistic regression, KNN classification, LDA, QDA).
 
-<!-- $K$-Nearest Neighbors classification   -->
-<!-- <center>  -->
-<!-- ![Fig 2.14](../Images_for_slides/All_Figures/Chapter2/2_14.png){ width=60% } -->
-<!-- </center> -->
-<!-- ISL Fig. 2.14. KNN decision boundary for $K$=3  -->
+$K$-Nearest Neighbors classification
+<center>
+![Fig 2.14](Images_for_slides/All_Figures/Chapter2/2_14.png){ width=60% }
+</center>
+ISL Fig. 2.14. KNN decision boundary for $K$=3
 
-<!-- ## Non-parametric classification: KNN    -->
-<!-- Choosing appropriate level of flexibility   -->
-<!-- <center>  -->
-<!-- ![Fig 2.16](../Images_for_slides/All_Figures/Chapter2/2.16.png){ width=90% } -->
-<!-- </center> -->
-<!-- ISL Fig. 2.16  -->
+## Non-parametric classification: KNN
+Choosing appropriate level of flexibility
+<center>
+![Fig 2.16](Images_for_slides/All_Figures/Chapter2/2_16.png){ width=90% }
+</center>
+ISL Fig. 2.16
 
-<!-- ## Non-parametric classification: KNN     -->
-<!-- Bias-variance trade-off     -->
-<!-- <center>  -->
-<!-- ![Fig 2.17](../Images_for_slides/All_Figures/Chapter2/2.17.png){ width=70% } -->
-<!-- </center> -->
-<!-- ISL Fig. 2.17  -->
+## Non-parametric classification: KNN
+Bias-variance trade-off
+<center>
+![Fig 2.17](Images_for_slides/All_Figures/Chapter2/2_17.png){ width=70% }
+</center>
+ISL Fig. 2.17
 
 ## In summary: 
 - Statistical learning refers to a vast set of tools for understanding data, and estimating $f(X)$.

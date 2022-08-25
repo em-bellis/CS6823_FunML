@@ -2,6 +2,10 @@
 .Rhistory
 .Rapp.history
 
+# rendered pdfs
+pdfs/*
+Images_for_Slides/*
+
 # Mac OS
 .DS_store
 

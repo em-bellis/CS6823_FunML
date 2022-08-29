@@ -1,4 +1,14 @@
-regression	problems with a quantitative response
-classification	problems with a qualitative (or categorical) response
-quantitative variable	takes on a numerical value (e.g. age, height, income)
-qualitative variable	takes on a value of one of K different classes or categories
+regression:	problems with a quantitative response
+classification:	problems with a qualitative (or categorical) response
+quantitative variable:	takes on a numerical value (e.g. age, height, income)
+qualitative variable: takes on a value of one of K different classes or categories
+bias: error introduced by approximating a complicated model by a simpler one
+variance: the amount our prediction changes from one training set to another
+parametric model: assumes a specific form of relationship
+non-parametric model: does not assume a specific form of relationship
+training dataset: set of data used to estimate f
+test dataset: hold out set used to estimate model performance
+error:  difference in observed response compared to predicted response
+MSE:  one measure of measuring model error; mean squared error
+interpretability: ability to make specific inference in regard to data and model
+flexibility:  ability for model to fit the data

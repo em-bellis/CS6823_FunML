@@ -1,3 +1,4 @@
+statistical learning: a set of tools for understanding data
 regression:	problems with a quantitative response
 classification:	problems with a qualitative (or categorical) response
 quantitative variable:	takes on a numerical value (e.g. age, height, income)

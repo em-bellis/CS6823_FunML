@@ -1,0 +1,42 @@
+---
+title: "Report 2"
+author: ""
+date: ""
+output: pdf_document
+bibliography: [CS6823_references.bib]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**This report is due on 10/5/22. Bring a hard copy of the .Rmd code to class as well as the rendered report for the peer code review.** 
+
+- Your rendered report should be no more than 2 pages or so! Use `echo = F` and `results = F` and other code chunk options to curate what is displayed to the reader.
+- All elements of the rendered report should be readable and understandable by someone without programming experience.
+- Your .Rmd file should contain all code needed to reproduce the report.
+
+## Introduction 
+For Report 2, address points raised during the first round of review. Your introduction should include a short paragraph (or two!) that briefly introduces your research question. Include enough background information to convince your reader that your chosen research question is important to address. **Include a citation to at least one relevant peer-reviewed study that has addressed your research question.**  
+
+## Methods  
+For Report 2, carry out both a regression analysis OR a classification analysis using one of the parametric techniques we have discussed so far. In your Methods section:
+
+1) briefly describe your dataset (number of samples, number of predictors and what they represent, and the response variable) and
+
+2) describe your modeling approach including citations to R and any packages used. 
+
+## Results 
+For Report 2, provide at least one but no more than two visual representations of your dataset or analysis. The data should be clearly presented, including labels for *x*- and *y*-axes and any necessary legends.
+
+If you include a table, be sure to format the table appropiately. For example `kable` from the `knitr` package and `kableExtra` provide a lot of great functionality for formatting tables!  
+
+Provide a short interpretion for your analysis (no more than one paragraph).
+
+## Discussion 
+For Report 2, provide a short (few sentences) discussion of how your regression or classification analysis relates to your research question.
+
+Provide another few sentences describing whether there were any issues with application of the parametric approaches to your dataset in terms of violating model assumptions or low accuracy.
+
+## References 
+By default these are provided at the end in the rendered document for anything you cited in-line. 

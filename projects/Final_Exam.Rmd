@@ -1,0 +1,23 @@
+---
+title: "Final Exam"
+author: ""
+date: ''
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+As you know, we have in this course operated in a mostly 'ungraded' format, where I have given short mini-exam/quizzes to check in with your understanding of overarching topics we have covered, coupled with iterative feedback on projects you have developed yourselves over the course of the semester. However, we have now come to the part of the course where I must assign a letter grade based on your performance in the class. To help with this, please answer the following questions:
+
+1. What letter grade would you like to argue to receive in this course? 
+
+2. Justify your answer to (1) above. You may use different sources of evidence as examples. If you do not feel that the mini-exams or project did a good job of assessing your learning, you are welcome to include an Appendix with additional evidence demonstrating your mastery of the material (i.e. a mind map of all techniques we have covered so far along with rationale for its organization).
+
+3. (optional) How do you feel about the way we treated grading in this course? Was it more/less stressful? Did it help you focus more on learning, or was it too unstructured? Were you able to (or did you start to) accurately assess your own performance, or do you think you often over- or under-estimated your knowledge of the material? Would you recommend an 'ungraded' format for this course in future, or suggest any changes?
+
+Your answers to these questions should be submitted by email as a .pdf, .txt, or .doc file. If at any time you would like my feedback on your approach/answer to #1 and #2 above, please let me know!
+
+This assignment is due the same date as the final project report (Dec. 14).
+

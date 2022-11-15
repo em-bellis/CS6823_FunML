@@ -122,6 +122,9 @@ Only the observations on the margin or on the wrong side of the margin (support 
 - Support Vector Classifier (extension of MMCs to non-separable cases)
 - **Support Vector Machines (further extension of SVCs to accomodate non-linear boundaries)**
 
+## 
+![Ramin Nazer: Upgrade to the Next](Images_for_slides/raminnazer.png){ width=100%}
+
 ## Support Vector Machines  
 Use *kernels* to enlarge feature space and accommodate non-linear boundaries between the classes.
 

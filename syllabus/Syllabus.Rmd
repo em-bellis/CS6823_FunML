@@ -1,7 +1,7 @@
 ---
 title: "CS 6823: Fundamentals of Machine Learning"
 author: ''
-date: "Fall 2022"
+date: "Spring 2023"
 output: pdf_document 
 fontsize: 12pt
     
@@ -10,15 +10,15 @@ fontsize: 12pt
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-**Number:** 64934  
+**Number:** 13277  
 **Days:** MW  
-**Time:** 9:30 - 10:45 am  
+**Time:** 11:00 - 12:15 am  
 **Credits:** 3  
 **Instructor:** Emily Bellis, Ph.D.  
 **Room:** LSW 236
 
 **Office:** ABI 202  
-**Office hours:** Th 4:00-5:00 pm or by appointment
+**Office hours:** M/W afternoons by appointment
 
 **email:** ebellis@astate.edu  
 
@@ -56,14 +56,16 @@ Students successfully completing this course will:
 *	Gain mastery of the R programming language and familiarity with R Markdown for generation of automated, reproducible, and professional data analysis reports.
 
 ## Organization  
-Class sessions are planned to occur for the most synchronously, in person (but see Emergency Instruction Statement). Lectures will include a mixture of powerpoint presentation of the material, active learning activities including peer code reviews, and live coding. Course materials such as rubrics and slides are made available through Blackboard. Students may also track their grades on assignments throughout the course in Blackboard.
+Class sessions are planned to occur for the most synchronously, in person (but see Emergency Instruction Statement). Lectures will include a mixture of powerpoint presentation of the material, active learning activities including peer code reviews, and live coding. Course materials including lecture slides and assignments are available on GitHub (https://github.com/em-bellis/CS6823_FunML). 
 
 ## Grading  
 To earn an 'A' for this course, you must:  
 
-* Demonstrate mastery on at least 5 'mini-exams' offered during the course AND  
+* Demonstrate mastery on ~4-5 mini-exams offered at approximately regular intervals during the course AND  
 
-* Contribute to at least three code reviews  AND  
+* Contribute to at least three code reviews  AND 
+
+* Lead one R demo lab during the second half of the course  AND 
 
 * Earn an A on the Final Project. Final Projects must demonstrate **deep understanding and mastery** of the material covered throughout the course.  
 
@@ -73,22 +75,24 @@ To earn a 'B' for this course, you must:
 
 * Contribute to at least three code reviews AND  
 
+* Lead one R demo lab during the second half of the course  AND 
+
 * Earn a B or above on the Final Project. Final Projects must demonstrate **good understanding** of the material covered throughout the course.
 
 Students who demonstrate only limited understanding of the course material by the end of the semester (on the mini-exams or on the project) or who do not contribute to peer code reviews will earn a 'C'. Students who engage in academic misconduct (plagiarism or cheating) will earn an 'F'. 
 
-The grading policy for this course has been updated as of Fall 2022 after reading Susan Blum's excellent book '[Ungrading:](http://www.susanblum.com/blog/ungrading) Why Rating Students Undermines Learning'. I appreciate that the lack of a numerical score on most assignments throughout the course could be somewhat stressful and will provide a tentative letter grade on your midterm report, so you know where you are headed. All other project reports will be individual feedback (comments) only from myself and from the peer code review. I am keen to know what you think about this new element of the course and if it has helped you focus more on your learning compared to a more 'traditional' policy.
+The grading policy for this course has been updated as of Fall 2022 after reading Susan Blum's excellent book '[Ungrading:](http://www.susanblum.com/blog/ungrading) Why Rating Students Undermines Learning'. I appreciate that the lack of a numerical score on most assignments throughout the course (as we are often accustomed to receiving) could be somewhat stressful and will provide a tentative letter grade on your midterm report, so you know where you stand. All other project reports will be individual feedback only from myself and from the peer code review process.   
 
 ## Course Requirements  
-**Mini-exams:** In-class mini-exams are quizzes intended to encourage everyone to keep up with the lecture material and the reading, and help both you and me monitor how you are doing. Make-ups will not be given. I will offer at least 6 mini-exams throughout the course, and you will have the opportunity to resubmit the mini-exam, with a written reflection describing your updated thought process for each 'incorrect' question, for full credit.
+**Mini-exams:** In-class mini-exams are quizzes intended to encourage everyone to keep up with the lecture material and the reading, and help both you and me monitor how you are doing. Make-ups will not be given. If you totally bomb a mini-exam, I will ask you to resubmit a revised version, along with a written reflection describing your updated thought process for each question. 
 
-**Reports (5):** You will complete five short project reports based on a dataset(s) of your choosing. The goal is to implement and interpret the results of statistical learning techniques covered during the term on a dataset 'from the wild'. *Reports are expected to be the independent work of an individual student and each student must work with a different dataset.* However, you may use the same dataset(s) throughout the semester. You should submit a hard copy of the rendered report that also includes a print out of the .Rmd (or .qmd) code (with any mark-up from the peer code review process, and the peer code review itself) attached to the final report as an appendix.
+**Reports (5):** You will complete five short project reports based on a dataset(s) of your choosing. The goal is to implement and interpret the results of statistical learning techniques covered during the term on a dataset 'from the wild'. *Reports are expected to be the independent work of an individual student and each student must work with a different dataset.* However, you may use the same dataset(s) throughout the semester. You should submit a hard copy of the rendered report that also includes a print out of the .Rmd (or .qmd) code (with any mark-up from the peer code review process) attached to the final report as an appendix.
 
 **Code Review:** Peer code reviews take place in class on days that Reports (see above) are due. Students are expected to bring hard-copies of reports including code to class to facilitate peer reviews; full credit will be given for code reviews that are helpful and constructive (see also Inclusive Environment Policy). 
 
-**Mid-term project:** The mid-term project represents an integration of statistical learning techniques implemented in the first half of the course. You are encouraged to focus on the same dataset and reuse code and results from the Reports (above) and to incorporate improvements from the peer code review and instructor comments. In addition, the mid-term project report will compare the multiple modeling techniques used, defend the most suitable technique for analysis of the chosen dataset, and interpret the results of the best model in the context of a compelling research question.  
+**Mid-term project:** The mid-term project (a.k.a. Report 3) represents an integration of statistical learning techniques implemented in the first half of the course. You are encouraged to focus on the same dataset and reuse code and results from the Reports (above) and to incorporate improvements from the peer code review and instructor comments. In addition, the mid-term project report will compare the multiple modeling techniques used, defend the most suitable technique for analysis of the chosen dataset, and interpret the results of the best model in the context of a compelling research question.  
 
-**Final project:** The final project represents an integration of statistical learning techniques implemented in the full the course. You are encouraged to focus on the same dataset and reuse code and results from the Reports (above) and to incorporate improvements from the peer code review and instructor comments. In addition, the final project report will compare the multiple modeling techniques used, defend the most suitable technique for analysis of the chosen dataset, and interpret the results of the best model in the context of a compelling research question. It is not necessary to include all techniques discussed in class; instead, present a comparison of three techniques that are most appropriate to your research question and dataset.  
+**Final project:** The final project (a.k.a Report 5) represents an integration of statistical learning techniques implemented in the full the course. You are encouraged to focus on the same dataset and reuse code and results from the Reports (above) and to incorporate improvements from the peer code review and instructor comments. In addition, the final project report will compare the multiple modeling techniques used, defend the most suitable technique for analysis of the chosen dataset, and interpret the results of the best model in the context of a compelling research question. It is not necessary to include all techniques discussed in class; instead, present a comparison of three techniques that are most appropriate to your research question and dataset.  
 
 ## Policies
 **Late Work:** For the most part I will not be accepting late work; if you do not complete a project report on time, you may need to wait until the next due date to receive comments and feedback from me on your project.
@@ -124,5 +128,5 @@ df <- read.csv('Schedule_CS.csv')
 df$Week[is.na(df$Week)] <- ""
 kable(df, caption="CS 6823 Schedule", booktabs=TRUE) %>%
   kable_styling(latex_options = c("striped","scale_down"), font_size = 8) %>%
-  row_spec(c(4,8,14,16,23,26:27, 30:31), bold=TRUE)
+  row_spec(c(2,6,10,17,20:21,30:31), bold=TRUE)
 ```

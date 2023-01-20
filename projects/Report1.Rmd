@@ -10,10 +10,10 @@ bibliography: [CS6823_references.bib]
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**This report is due on 9/19/22. Bring a hard copy of the .Rmd code to class as well as the rendered report for the peer code review.**
+**This report is due on 1/30/23. Bring a hard copy of the .Rmd code to class as well as the rendered report for the peer code review.**
 
 ## Introduction 
-Choose a dataset from an external source (i.e. NOT from the the textbook or included with base R) that allows you to ask a compelling research question in the context of the statistical learning techniques presented in class. I recommend a dataset with a minimum of 100 observations and at least 5 continuous predictors (more is even better). If you don't know where to start, Kaggle is a good source of publicly available datasets, and I also like a lot of the datasets from [Tidy Tuesday](<https://github.com/rfordatascience/tidytuesday>). 
+Choose a dataset from an external source (i.e. NOT from the the textbook or included with base R) that allows you to ask a compelling research question in the context of the statistical learning techniques presented in class. I recommend a dataset with a minimum of 100 observations and at least 5 continuous predictors (more is better). If you don't know where to start, Kaggle is a good source of publicly available datasets, and I also like a lot of the datasets from [Tidy Tuesday](<https://github.com/rfordatascience/tidytuesday>). 
 
 *This project is expected to be the independent work of each individual student and you should not use the same dataset as anyone else*. You can share the dataset you are using with other members in the class by posting to the Blackboard discussion board. Spend some time thinking carefully about this! At the end of the course, you will ideally end up with a very nice project report you can show off in a portfolio or that you can build on for a graduate research project.
 

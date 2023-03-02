@@ -9,7 +9,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-The mid-term project represents an integration of statistical learning techniques implemented in the first half of the course. You are encouraged to focus on the same dataset and reuse code and results from the bi-weekly Reports and to incorporate improvements from the peer code review and instructor comments. The mid-term project report should: 
+Report 3 represents an integration of statistical learning techniques implemented in the first half of the course. You are encouraged to focus on the same dataset and reuse code and results from the bi-weekly Reports and to incorporate improvements from the peer code review and instructor comments. The mid-term project report should: 
 
 1. Compare *TWO* models based on techniques discussed in Chapters 2-7, and  
 
